@@ -26,14 +26,14 @@
         <ul>
           <li>
             <label>Full Name</label>
-            <input type="text" [(ngModel)]="contact.full_name" name="full_name" #full_name="ngModel" required />
+            <input type="text" #flname [(ngModel)]="contact.full_name" name="full_name" #full_name="ngModel" required />
             <div *ngIf="full_name.errors && full_name.touched" class="error">
               <span [hidden]="!full_name.errors.required"> Full Name is required. </span>
             </div>
           </li>
           <li>
             <label>Mobile Number</label>
-            <input type="number" [(ngModel)]="contact.mobile" name="mobile" #mobile="ngModel" required oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
+            <input type="number" #fmobile [(ngModel)]="contact.mobile" name="mobile" #mobile="ngModel" required oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');"
               onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" />
             <div *ngIf="mobile.errors && mobile.touched" class="error">
               <span [hidden]="!mobile.errors.required"> Mobile Number is required. </span>
@@ -41,14 +41,14 @@
           </li>
           <li>
             <label>Email Address</label>
-            <input type="email" [(ngModel)]="contact.email" name="email" #email="ngModel" required email/>
+            <input type="email" #femail [(ngModel)]="contact.email" name="email" #email="ngModel" required email/>
             <div *ngIf="email.errors && (email.dirty || email.touched)" class="error">
               <span [hidden]="!email.errors.required"> Email is required. </span>
             </div>
           </li>
           <li class="messageInput">
             <label>Message</label>
-            <textarea [(ngModel)]="contact.comment" name="comment" #comment="ngModel" required></textarea>
+            <textarea #fcomment [(ngModel)]="contact.comment" name="comment" #comment="ngModel" required></textarea>
             <div *ngIf="comment.errors && comment.touched" class="error">
               <span [hidden]="!comment.errors.required"> Message is required. </span>
             </div>
