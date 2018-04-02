@@ -1,0 +1,124 @@
+.contactWraper{
+    margin: 145px 0 0 0;
+    padding: 0px;
+    width: 100%;
+}
+
+.contactArea{
+    margin: 5% 0 0 0;
+    padding: 0px 0 50px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contactInfo{
+    margin: 0px auto;
+    padding: 0px;
+    width: 600px;
+    h4{
+        margin: 0px;
+        padding: 0px 0 5% 0;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: rgb(58, 58, 58);
+        text-align: center;
+    }
+    p{
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+        color: rgb(137, 137, 137);
+        line-height: 22px;
+        text-align: center
+    }
+    ul{
+        margin: 5% 0 0 0;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px;
+            padding: 0px 0 40px 0;
+            label{
+                margin: 0px;
+                padding: 0px 0 13px 0;
+                display: block;
+                font-size: 14px;
+                color: rgb(137, 137, 137);
+            }
+            input[type=text]{
+                margin: 0px;
+                padding: 13px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 5px;
+                border: 1px solid #eee;
+                width: 100%;
+                font-size: 12px;
+            } 
+            input[type=email]{
+                margin: 0px;
+                padding: 13px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 5px;
+                border: 1px solid #eee;
+                width: 100%;
+                font-size: 12px;
+            } 
+            input[type=number]{
+                margin: 0px;
+                padding: 13px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 5px;
+                border: 1px solid #eee;
+                width: 100%;
+                font-size: 12px;
+            } 
+            .error {
+                font-size: 11px;
+                color: red;
+                padding-top: 10px;
+            }  
+            textarea{
+                margin: 0px;
+                padding: 13px;
+                height: 100px;
+                line-height: 20px;
+                border-radius: 5px;
+                border: 1px solid #eee;
+                width: 100%;
+                font-size: 12px;
+                resize: none;
+            }    
+            button{ 
+               
+                font-family: Montserrat, sans-serif;
+                padding: 18px 30px;
+                margin: 0px auto;
+                text-decoration: none;
+                line-height: 1;
+                display:block;
+                cursor: pointer;
+                text-align: center;
+                vertical-align: top;
+                white-space: normal;
+                font-size: 15px;
+                font-weight: 900;
+                border-radius: 30px;
+                border: 0px;
+                text-transform: uppercase;
+                transition: all 0.2s ease-in-out;
+                background: #cdcdcd;
+                &:hover{
+                    background: #cdcdcd;
+                    border-radius: 0px;
+                }
+            }    
+        }
+        li.subBtn {
+            text-align: center;
+        }
+    }
+}

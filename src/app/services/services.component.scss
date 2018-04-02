@@ -1,0 +1,94 @@
+
+.serviceWraper{
+    margin: 145px 0 0 0;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.serviceAllWraper{
+    margin: 0px auto;
+    padding: 2% 0 0 0;
+    width: 1024px;
+}
+
+
+.serviceInfo{
+    margin: 0px;
+    padding: 0px 0 5% 0;
+    overflow: hidden;
+   
+    .serviceLeft{
+        margin: 0px;
+        padding: 0 20px 0 0;
+        float: left;
+        width: 50%;
+        h4{
+            font-size: 36px;
+            font-weight: 500;
+            letter-spacing: -.02em;
+            margin-top: 0;
+            margin-bottom: 40px;
+            color: #3a3a3a;
+        }
+        h5{
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: -.02em;
+            color: #3a3a3a;
+            margin: 0px 0 30px 0;
+            padding: 0px;
+            line-height: 25px;
+        }
+        p{
+            margin: 0px;
+            margin-top: 15px;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 18px;
+            color: #898989;
+            line-height: 22px;
+            margin-bottom: 30px;
+        }
+        .btn{
+                
+            padding: 10px 20px;
+            display:inline-block;
+            background: #0ab2c0;
+            color: #fff;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: all 0.2s ease-in-out;
+            border: 0px;
+            width: auto;
+            display: inline-block;
+            cursor: pointer;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 20px;
+            a{
+                color: #fff;
+            }
+            &:hover{
+                color: #fff;
+                background: #ea4a31;
+                border-radius: 30px;
+            }
+        }    
+    }
+    .serviceRight{
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.serviceInfo.odd {
+    .serviceLeft{
+        padding: 0 0px 0 20px;
+    }
+}

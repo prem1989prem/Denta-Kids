@@ -1,0 +1,267 @@
+.slideBanner{
+    margin: 130px 0 0 0;
+    padding: 0px;
+    position:relative;
+    overflow: hidden;
+    .slidePic{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+    h2{
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 24%;
+        left: 5%;
+        z-index: 5555;
+        font-size: 50px;
+        line-height: 80px;
+        color: #ea4a31;
+        span{
+            display: block;
+            font-size: 60px;
+            text-transform: uppercase;
+        }
+    }
+
+    .btn{
+        margin: 0px;
+        padding: 15px 40px;
+        display:inline-block;
+        background: #0ab2c0;
+        color: #fff;
+        border-radius: 5px;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        z-index: 55555;
+        a{
+            color: #fff;
+        }
+        &:hover{
+            color: #fff;
+            background: #ea4a31;
+            border-radius: 30px;
+        }
+    }
+}
+// end slider
+
+
+.wlcomeWraper{
+    overflow: hidden;
+    margin: 0px;
+    padding: 70px 0px;
+    overflow: hidden;
+    padding-bottom: 40px;
+        
+    h4{
+        margin: 0px;
+        padding: 0px 0 80px 0;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: rgb(58, 58, 58);
+        text-align: center;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin: 0px;
+            padding: 20px;
+            float: left;
+            width: 33%;
+            h2{
+                margin: 0px;
+                padding: 0px 0 20px 0;
+                font-weight: 500;
+                font-size: 22px;
+                color: rgb(58, 58, 58);
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 25px;
+                color: #898989;
+                font-weight: 300;
+            }
+            .welcomePic{
+                margin: 0px 0 20px 0;
+                padding: 0px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+// end welcome
+
+.chooseArea{
+    overflow: hidden;
+    margin: 0px;
+    padding: 70px 0px;
+    overflow: hidden;
+    background: #00c2c7;
+    padding-bottom: 30px;
+        
+    h4{
+        margin: 0px;
+        padding: 0px 0 50px 0;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: rgb(58, 58, 58);
+        text-align: center;
+        color: #fff;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        li{
+            margin:0px;
+            padding: 15px;
+            width: 25%;
+            float: left;
+            color: #fff;
+            text-align: center;
+            img{
+                margin-bottom: 25px;
+            }
+            h5{
+                margin: 0px;
+                padding: 0px 0 20px 0;
+                font-size: 18px;
+                font-weight: 500;
+                text-align: center;
+                text-transform: capitalize;
+                line-height: 30px;
+            }
+            p{
+                margin: 0px;
+                padding: 0px;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+            }
+        }
+    }
+}
+// end choose
+
+.testimonWraper{
+    margin: 0px;
+    padding: 70px 0px;
+    overflow: hidden;
+    background-color: rgb(239, 239, 239);
+}
+
+.testimonArea{
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    
+    h4{
+        margin: 0px;
+        padding: 0px 0 80px 0;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: rgb(58, 58, 58);
+        text-align: center;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        margin-top: 55px;
+        li{
+            margin: 0px 5% 0 0;
+            padding: 0px;
+            float: left;
+            width: 30%;
+            text-align: center;
+            &:last-child{
+                margin-right: 0px;
+            }
+            .quote-modern{
+                margin: 0px;
+                padding: 0px;
+                background: #fff;
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 2px 2px 4px #8d8c8c;
+                .quote-modern__image-wrap{
+                    margin: 0px;
+                    padding: 0px;
+                    
+                    position: relative;
+                    left: 0px;
+                    right: 0px;
+                    text-align: center;
+                    top: -66px;
+                    
+                    img{
+                        border-radius: 50%; 
+                        border: 5px solid #e8e5e5;
+                    }
+                }
+                .quote-modern__main{
+                    margin: 0px;
+                    padding: 10px 20px;
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #000;
+                    padding-bottom: 0px;
+                    margin-top: -70px;
+                }
+                .quote-modern__footer{
+                    margin: 0px;
+                    padding: 20px 0 40px 0;
+                    overflow: hidden;
+                    small{
+                        display: inline-block;
+                        font-size: 13px;
+                        margin: 0px;
+                        padding: 10px 20px;
+                        background: #0ab2c0;
+                        color: #fff;
+                        border-radius: 5px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        display: inline-block;
+                        font-size: 13px;
+                        margin: 0px;
+                        padding: 10px 20px;
+                        background: #ea4b1a;
+                        color: #fff;
+                        border-radius: 5px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+// end testimonial

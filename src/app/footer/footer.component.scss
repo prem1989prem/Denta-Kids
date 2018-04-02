@@ -1,0 +1,139 @@
+.footWraper {
+    margin: 50px 0 0 0;
+    padding: 0px;
+}
+
+.footArea {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+}
+
+.footLinks {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    h5{
+        margin: 0px;
+        padding: 0px 0 40px 0;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .footContact {
+        margin: 0px;
+        padding: 0px;
+        width: 35%;
+        float: left;
+        ul{
+            margin: -5px 0 0 0;
+            padding: 0px;
+            list-style:none;
+            li{
+                margin: 0px;
+                padding: 0 0 26px 0;
+                font-size: 16px;
+                color: #898989;
+                span{
+                    color: #000;
+                    font-weight: 300;
+                    line-height: 30px;
+                    width: 75px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+.footFollow {
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    float: left;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style:none;
+        li{
+            margin: 0px;
+            padding: 0 0 20px 0;
+            
+            color: #5e5e5e;
+            font-weight: 500;
+            span{
+                display: inline-block;
+                width: 25px;
+                font-size: 14px;
+            }
+            a{
+                color: #00c2c7;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+.footNewsletter{
+    margin: 0px;
+    padding: 0px;
+    p{
+        margin: 0px;
+        padding: 0px 0 30px 0 ;
+        font-size: 16px;
+        color: #898989;
+    }
+    .newsInput{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        input{
+            margin: 0px;
+            padding: 20px 10px;;
+            float: left;
+            height: 40px;
+            border-radius: 2px;
+            background: #d7d7d7;
+            border: 0px;
+            line-height: 40px;
+            color: #898989;
+            width: 70%;
+            transition:all 0.2s ease-in-out;
+            &:focus{
+                background: #eeeeee;
+            }
+        }
+        button{
+            width: auto;
+            height: 40px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #fff;
+            background-color: #00c2c7;
+            border-color: #00c2c7;
+            border-radius: 2px;
+            border: 0px;
+            cursor: pointer;
+            margin-left: 5px;
+            transition:all 0.2s ease-in-out;
+            text-transform: uppercase;
+            &:hover{
+                background: #525252;
+            }
+        }
+    }
+}
+
+.copyWrite {
+    margin: 20px 0 0 0;
+    padding: 25px 0px;
+    background: #525252;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}

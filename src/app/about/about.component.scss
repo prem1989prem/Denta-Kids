@@ -1,0 +1,179 @@
+.aboutWraper{
+    margin: 145px 0 0 0;
+    padding: 0px;
+    width: 100%;
+}
+
+.bannerWraper{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: url('../../assets/images/about-banner.jpg');
+    background-attachment: fixed;
+    background-position: center 70px;
+    .banner{
+        margin: 0px auto;
+        padding: 0px;
+        width: 1024px;
+        .bannerLeft{
+            margin: 0px;
+            padding: 12% 0 10% 0;
+            float: left;
+            width: 60%;
+            h4{
+                font-size: 36px;
+                color: rgb(58, 58, 58);
+                font-weight: 500;
+                margin: 0px;
+                padding: 0px 0 10px 0;
+            }
+            p.subText{
+                color: rgb(234, 74, 49);
+                margin: 0px;
+                padding: 0px;
+                font-weight: 500;
+                font-size: 19px;
+            }
+            h5{
+                margin-top: 50px;
+                font-weight: 500;
+                line-height:22px;
+                font-size: 17px;
+                letter-spacing: -0.02em;
+            }
+            p{
+                margin-top: 15px;
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                color: rgb(137, 137, 137);
+                padding: 0px 0 15px 0;
+            }
+       
+                .btn{
+                    margin: 0px;
+                    padding: 15px 40px;
+                    display:inline-block;
+                    background: #0ab2c0;
+                    color: #fff;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    transition: all 0.2s ease-in-out;
+                    a{
+                        color: #fff;
+                    }
+                    &:hover{
+                        color: #fff;
+                        background: #ea4a31;
+                        border-radius: 30px;
+                    }
+                }
+           
+        }
+    }
+}
+
+
+.testimonWraper{
+    margin: 0px;
+    padding: 70px 0px;
+    overflow: hidden;
+    background-color: rgb(239, 239, 239);
+}
+
+.testimonArea{
+    margin: 0px auto;
+    padding: 0px;
+    width: 1024px;
+    
+    h4{
+        margin: 0px;
+        padding: 0px 0 70px 0;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: rgb(58, 58, 58);
+        text-align: center;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        margin-top: 55px;
+        li{
+            margin: 0px 5% 0 0;
+            padding: 0px;
+            float: left;
+            width: 30%;
+            text-align: center;
+            &:last-child{
+                margin-right: 0px;
+            }
+            .quote-modern{
+                margin: 0px;
+                padding: 0px;
+                background: #fff;
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 2px 2px 4px #8d8c8c;
+                .quote-modern__image-wrap{
+                    margin: 0px;
+                    padding: 0px;
+                    
+                    position: relative;
+                    left: 0px;
+                    right: 0px;
+                    text-align: center;
+                    top: -66px;
+                    
+                    img{
+                        border-radius: 50%; 
+                        border: 5px solid #e8e5e5;
+                    }
+                }
+                .quote-modern__main{
+                    margin: 0px;
+                    padding: 10px 20px;
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #000;
+                    padding-bottom: 0px;
+                    margin-top: -70px;
+                }
+                .quote-modern__footer{
+                    margin: 0px;
+                    padding: 20px 0 40px 0;
+                    overflow: hidden;
+                    small{
+                        display: inline-block;
+                        font-size: 13px;
+                        margin: 0px;
+                        padding: 10px 20px;
+                        background: #0ab2c0;
+                        color: #fff;
+                        border-radius: 5px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        display: inline-block;
+                        font-size: 13px;
+                        margin: 0px;
+                        padding: 10px 20px;
+                        background: #ea4b1a;
+                        color: #fff;
+                        border-radius: 5px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

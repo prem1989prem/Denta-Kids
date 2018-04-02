@@ -1,0 +1,114 @@
+.headerArea{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 555555;
+    top: 0px;
+    left: 0px;
+}
+
+.topWraper {
+    margin: 0px;
+    padding: 5px 0px;
+    background: #ea4a31;
+    position: relative;
+    .topArea {
+        margin: 0px auto;
+        padding: 0px;
+        width: 1024px;
+        color: #fff;
+        overflow: hidden;
+        .phoneNumber {
+            margin: 5px 0 0 0;
+            padding: 0px;
+            float: left;
+            font-size: 14px;
+            .mobtext{
+                margin-left: 5px;
+                font-size: 17px;
+            }
+        }
+        .socialIcon {
+            margin: 0px;
+            padding:0px;
+            float: right;
+            ul{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                li{
+                    margin: 0px;
+                    padding: 5px 10px;
+                    float: left;
+                    a{
+                        color: #fff;
+                        transition: all 0.2s ease-in-out;
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                    &:last-child{
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.navWraper{
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.navArea{
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 1024px;
+    .logo{
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    .navLink{
+        margin: 10px 0 0 0;
+        padding: 0px;
+        float: right;
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style:none;
+            li{
+                margin:0px 0 0 30px;
+                padding: 0px;
+                float:left;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                a{
+                    position: relative;
+                    z-index: 2;
+                    display: block;
+                    padding: 12px 10px 10px 10px;
+                    font-weight: 700;
+                    color: #1f1f1f;
+                    background: transparent;
+                    border-radius: 3px;
+                    transition: all 0.2s ease-in-out;
+                    &:hover{
+                        background: #00c2c7;
+                        color: #fff;
+                    }
+                }
+                a.active-link{
+                    background: #00c2c7;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
